@@ -1,0 +1,109 @@
+/* estilos de presentacion */
+body{
+    background: linear-gradient(to right, #434343, #000000);
+    margin: 0!important;
+    display: block;
+}
+
+h5, h5 {
+    font-size: 1.25rem;
+}
+
+.fondoDeEncabezado {
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-position: auto;
+    background-size: cover;
+    width: 960px;
+    height: 400px;
+    /* height: auto; o 100% */
+}
+
+.fondoTransparente {
+    background-color: transparent !important;
+    border: none;
+}
+
+
+.card-header{
+    background: linear-gradient(to left, #020202, #3f3f3f); 
+    color: #D5AC8C !important;
+    text-align: center;
+}
+
+.colorTitulosCard {
+    color: #D5AC8C;
+}
+
+.colorTxtCard {
+    color: #FFFAF4 !important;
+}
+.colorCardAlfajores{
+    background-color: #D5AC8C;
+}
+
+.bordeBotonCardProductosAlfajor {
+    color: #63421E !important;
+    border-color: #63421E !important;
+}
+.fondoCardProductos {
+    background-color: #000000 !important;
+    border: none;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.bordeBotonCardProductos {
+    color: #D5AC8C !important;
+    border-color: #D5AC8C !important;
+}
+
+.bordeBotonCardProductos {
+    color: #D5AC8C !important;
+    border-color: #D5AC8C !important;
+}
+.colorTituloAlfajor{
+    color: #63421E;
+}
+
+/* media query 380 581 y 1200 */
+
+@media screen and (min-width:380px) and (max-width:580px) {
+
+}
+
+@media screen and (min-width:581px) and (max-width:1200px) {
+
+}
+
+
+@media screen and (min-width:1200px) {
+    
+    .contenedorPrimeraSeccion{
+        width: 30%;
+        padding: 4rem 2rem;
+        background-color: rgba(0,0,0,0.5);
+        margin: 0 4rem;
+    }
+
+    section {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+    .contenedorPrimeraSeccion p{
+            color: #fffaf4;
+    }
+
+    .contenedorPrimeraSeccion button{
+        display: block;
+        margin: auto;
+        margin-top: 3rem!important;
+    }
+
+
+}
+
+
+  
