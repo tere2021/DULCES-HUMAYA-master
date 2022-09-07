@@ -9,6 +9,9 @@ h5, h5 {
     font-size: 1.25rem;
 }
 
+div {
+    display: block;
+}
 .fondoDeEncabezado {
     background-image: url(./IMAGENES/Central/imagenCentral.png);
     background-position: auto;
